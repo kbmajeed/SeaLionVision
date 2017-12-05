@@ -10,7 +10,7 @@ from matplotlib import pyplot as plt
 
 
 # Define File and Data sequence
-url = "D:/Desky/PhD KFUPM/ICS 615 Advanced Computer Vision Sabri Mahmoud/Term Project/KaggleNOAASeaLions/Train"
+url = "D:/Desky/Project/KaggleNOAASeaLions/Train"
 files = os.listdir(url)
 
 
@@ -41,7 +41,7 @@ for i in range(1,N+1):
         yh = int(abs(j*h/N))
 		   #scissors = [y:yh , x:xh] #cropped = Image[yh:y , xh:x]
         #label[i] = str(i)+str(j)
-        cardspath = r"D:/Desky/PhD KFUPM/ICS 615 Advanced Computer Vision Sabri Mahmoud/Term Project/Cards" 
+        cardspath = r"D:/Desky/Project/Cards" 
         if not os.path.exists(cardspath):
             os.makedirs(cardspath)
         cropped = Image[y:yh , x:xh]
