@@ -6,7 +6,7 @@ import cv2
 #import numpy as np
 #from matplotlib import pyplot as plt
 
-url = "D:/Desky/PhD KFUPM/ICS 615 Advanced Computer Vision Sabri Mahmoud/Term Project/KaggleNOAASeaLions/Train"
+url = "D:/Desky/Project/KaggleNOAASeaLions/Train"
 files = os.listdir(url)
 # Image Acquisition and TempDir
 
