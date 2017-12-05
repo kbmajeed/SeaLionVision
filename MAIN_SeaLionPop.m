@@ -7,7 +7,7 @@
 %% Put Necessary Files in Matlab Path 
 % This function to extract the coordinates of labelled ground truth 
 clc; clear; here = pwd;
-addpath(genpath('D:\Desky\PhD KFUPM\ICS 615 Advanced Computer Vision Sabri Mahmoud'))
+addpath(genpath('D:\Desky\ICS6'))
 
 %% Categories 
 %|Color   |SeaLionType   |FolderNames|
@@ -18,15 +18,15 @@ addpath(genpath('D:\Desky\PhD KFUPM\ICS 615 Advanced Computer Vision Sabri Mahmo
 % green:   pups           (pp)
 
 %% Im1age Data Acquisition
-%Im1 = imread('D:\Desky\PhD KFUPM\ICS 615 Advanced Computer Vision Sabri Mahmoud\Term Project\KaggleNOAASeaLions\TrainDotted\0.jpg');
+%Im1 = imread('D:\Desky\ICS6\TrainDotted\0.jpg');
 
 %% Initialization for Extraction of Patches
 
 % Directory link to SeaLion 'TrainDotted' files
-url1 = ('D:\Desky\PhD KFUPM\ICS 615 Advanced Computer Vision Sabri Mahmoud\Term Project\KaggleNOAASeaLions\TrainDotted');
+url1 = ('D:\Desky\ICS6\TrainDotted');
 
 % Directory link to 'Train' files
-url2 = ('D:\Desky\PhD KFUPM\ICS 615 Advanced Computer Vision Sabri Mahmoud\Term Project\KaggleNOAASeaLions\Train');
+url2 = ('D:\Desky\ICS6\Train');
 
 % Percentage of 'Train' files to extract Sea Lion patches from
 Percentage    = 1;%
@@ -79,7 +79,7 @@ bw_pp_dialated = dialate(bw_pp, 3);
 %% Extract Patches from Sea Lion'Train' images
 
 % Create patch folder for each patch-extraction image
-url3 = strcat('D:\Desky\PhD KFUPM\ICS 615 Advanced Computer Vision Sabri Mahmoud\Term Project\Patches_',int2str(kk));
+url3 = strcat('D:\Desky\ICS6\Patches_',int2str(kk));
 mkdir(url3); cd(url3); 
 
 % Im1 = SeaLion 'Train 'image from which patch is to be extracted
