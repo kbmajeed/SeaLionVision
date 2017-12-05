@@ -10,8 +10,8 @@ import numpy as np
 
 
 # Define File and Data sequence
-url = "D:/Desky/PhD KFUPM/ICS 615 Advanced Computer Vision Sabri Mahmoud/Term Project/KaggleNOAASeaLions/Train"
-#url = "D:/Desky/PhD KFUPM/ICS 615 Advanced Computer Vision Sabri Mahmoud/Term Project/KaggleNOAASeaLions/TrainDotted"
+url = "D:/Desky/Project/KaggleNOAASeaLions/Train"
+#url = "D:/Desky/Project/KaggleNOAASeaLions/TrainDotted"
 files = os.listdir(url)
 
 
@@ -19,7 +19,7 @@ files = os.listdir(url)
 # Image = cv2.imread(url+'/'+files[0])
 #Image = cv2.imread(url+'/'+files[0])
 
-Image = cv2.imread('D:\Desky\PhD KFUPM\ICS 615 Advanced Computer Vision Sabri Mahmoud\Term Project\Cards2\Im_card44.jpg')
+Image = cv2.imread('D:\Desky\Project\Cards2\Im_card44.jpg')
 
 #Image = cv2.resize(Image, (800, 600))  
 #cv2.imshow("SeaLion_Image",Image)
@@ -45,8 +45,8 @@ Image = cv2.imread('D:\Desky\PhD KFUPM\ICS 615 Advanced Computer Vision Sabri Ma
 #        xh = int(abs(i*w/N))
 #        yh = int(abs(j*h/N))
 #		   #scissors = [y:yh , x:xh] #cropped = Image[yh:y , xh:x]
-#        cardspath = r"D:/Desky/PhD KFUPM/ICS 615 Advanced Computer Vision Sabri Mahmoud/Term Project/Cards" 
-#        #cardspath = r"D:/Desky/PhD KFUPM/ICS 615 Advanced Computer Vision Sabri Mahmoud/Term Project/Cards2" 
+#        cardspath = r"D:/Desky/Project/Cards" 
+#        #cardspath = r"D:/Desky/Term Project/Cards2" 
 #        if not os.path.exists(cardspath):
 #            os.makedirs(cardspath)
 #        cropped = Image[y:yh , x:xh]
