@@ -14,7 +14,7 @@
 
 %% Convolutional Neural Network Architecture
 
-digitDatasetPath = fullfile('D:\Desky\PhD KFUPM\ICS 615 Advanced Computer Vision Sabri Mahmoud\Term Project\AllPatches');
+digitDatasetPath = fullfile('D:\Desky\Project\AllPatches');
 %digitDatasetPath = fullfile('D:\Desky\AllPatches');
 digitData        = imageDatastore(digitDatasetPath,'IncludeSubfolders',true,'LabelSource','foldernames');
 CountLabel       = digitData.countEachLabel;
@@ -47,5 +47,5 @@ TTest    = testDigitData.Labels;
 accuracy = sum(YTest == TTest)/numel(TTest); 
 %accuracy = 0.9812;
     
-imTest = imread('D:\Desky\PhD KFUPM\ICS 615 Advanced Computer Vision Sabri Mahmoud\Term Project\AllPatches\am\patch1_830480988.jpg');
+imTest = imread('D:\Desky\Project\AllPatches\am\patch1_830480988.jpg');
 classify(convnet, imTest)
