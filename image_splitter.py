@@ -1,4 +1,3 @@
-# Initialization Kaggle Challenge
 from __future__ import division
 #import sys
 import os
