@@ -5,7 +5,7 @@
 Over the last 30 years, the population of the Steller Sea lions have declined by 94% in western Aleutian. Due to this decline, well trained scientists at NOAA Fisheries Alaska Fisheries Centre counts the western Aleutian Sea Lions population annually by conducting surveys using air craft system to collect aerial images. An accurate estimation of the population can ensure the understanding of factors that may contribute to the lack of recovery of stellers in this area. Most often biologist spend up to 4 months counting sea lions from thousands of images collected by NOAA fisheries each year. </p>
 
 ## Description
-In this work, a novel computer vision based algorithm to classify Sea lions in aerial into classes: adult males, sub adult males, adult females, juveniles and pup respectively. In the first stage, each of the aerial image from the dataset is divided into smaller box of images. Next, small patches are extracted from the smaller images based on categories; adult males, sub adult male, adult females, juvenile, and pups. In the final stage, we used this patches to train a convolutional neural network to classify the images.
+In this work, a CNN model is trained to classify Sea lions from aerial images into classes: adult males, sub adult males, adult females, juveniles and pup respectively. In the first stage, each of the aerial image from the dataset is divided into smaller box of images. Next, small patches are extracted from the smaller images based on categories; adult males, sub adult male, adult females, juvenile, and pups. In the final stage, we used this patches to train a convolutional neural network to classify the images.
 
 ```
 (1) Image Acquisition and Data Processing
