@@ -33,6 +33,15 @@ e. Classify patch using CNN model.
 ```
 
 ## Results
+The images below represent some steps in the pipeline and eventual accuracy of the model.
+Splitted images:  
+![](splitted_images.PNG)
+Extracting patches from Splitted images:  
+![](training_samples.PNG)
+Confusion matrix:  
+![](accuracy.PNG)
+...    
+While the accuracy displayed here is considered low, by fine tuning the hyperparameters of the CNN model, accuracy upto 85% was achieved.
 
 
 
