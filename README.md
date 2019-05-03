@@ -41,7 +41,7 @@ Extracting patches from Splitted images:
 Confusion matrix:  
 ![](accuracy.PNG)
 ...    
-While the accuracy displayed here is considered low, by fine tuning the hyperparameters of the CNN model, accuracy upto 85% was achieved.
+While the accuracy displayed here is considered low, by fine tuning the hyperparameters of the CNN model, accuracy up to 85% was achieved.
 
 
 
